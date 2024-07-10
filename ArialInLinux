@@ -1,0 +1,8 @@
+Linux使用Arial字体
+
+1、get windows的字体，一般在C:\Windows\Fonts, 复制到wsl（在wsl的主页面新建 mkdir .fonts）,chmod a+r .fonts
+
+2、删除缓冲，重启终端
+   复制完Arial字体文件后，删除该运行环境下matplotlib缓冲文件，具体操作为：rm -rf ~/.cache/matplotlib
+   使用命令关闭终端：Ctrl + D
+   重新进入终端，即可完成字体配置。
