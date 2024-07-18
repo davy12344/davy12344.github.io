@@ -1,0 +1,5 @@
+获得scph的力常数
+dfc2 original_fc2.xml renormalized_fc2_500K.xml prefix.scph_dfc2 500
+
+lasso残差很大： 
+可能是cv取的不好，要进行cv测试
