@@ -1,0 +1,15 @@
+给jupyter notebook添加新的kernel
+#################################################################################
+使用 nb_conda_kernels 添加所有环境
+第二种方法其实也挺不错的。有个缺点是，你新建一个环境，就要重复操作一次。
+
+而这个方法就是一键添加所有 conda 环境，且不妙哉！
+
+conda activate my-conda-env    # this is the environment for your project and code
+conda install ipykernel
+conda deactivate
+
+conda activate base      # could be also some other environment
+conda install nb_conda_kernels
+jupyter notebook
+#####################################################################################
